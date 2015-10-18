@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0710"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+               BuildableName = "Apple Watch App Watch App.app"
+               BlueprintName = "Apple Watch App Watch App"
+               ReferencedContainer = "container:Apple Watch App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D872BB7A1BD40DF50058CD68"
+               BuildableName = "Apple Watch App.app"
+               BlueprintName = "Apple Watch App"
+               ReferencedContainer = "container:Apple Watch App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D872BBB91BD40EB70058CD68"
+               BuildableName = "Apple Watch App Watch App Extension.appex"
+               BlueprintName = "Apple Watch App Watch App Extension"
+               ReferencedContainer = "container:Apple Watch App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+            BuildableName = "Apple Watch App Watch App.app"
+            BlueprintName = "Apple Watch App Watch App"
+            ReferencedContainer = "container:Apple Watch App.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Apple Watch App Watch App Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Apple Watch App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+            BuildableName = "Apple Watch App Watch App.app"
+            BlueprintName = "Apple Watch App Watch App"
+            ReferencedContainer = "container:Apple Watch App.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+            BuildableName = "Apple Watch App Watch App.app"
+            BlueprintName = "Apple Watch App Watch App"
+            ReferencedContainer = "container:Apple Watch App.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "Apple Watch App Watch App Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Apple Watch App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+            BuildableName = "Apple Watch App Watch App.app"
+            BlueprintName = "Apple Watch App Watch App"
+            ReferencedContainer = "container:Apple Watch App.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D872BBAD1BD40EB70058CD68"
+            BuildableName = "Apple Watch App Watch App.app"
+            BlueprintName = "Apple Watch App Watch App"
+            ReferencedContainer = "container:Apple Watch App.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
