@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87561E11BD6DD7E001785A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87561E01BD6DD7E001785A7 /* AppDelegate.swift */; };
+		D87561E31BD6DD7E001785A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87561E21BD6DD7E001785A7 /* ViewController.swift */; };
+		D87561E61BD6DD7E001785A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87561E41BD6DD7E001785A7 /* Main.storyboard */; };
+		D87561E81BD6DD7E001785A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87561E71BD6DD7E001785A7 /* Assets.xcassets */; };
+		D87561EB1BD6DD7E001785A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87561E91BD6DD7E001785A7 /* LaunchScreen.storyboard */; };
+		D87561F61BD6DD7E001785A7 /* Dynamic_PagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87561F51BD6DD7E001785A7 /* Dynamic_PagesTests.swift */; };
+		D87562011BD6DD7E001785A7 /* Dynamic_PagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87562001BD6DD7E001785A7 /* Dynamic_PagesUITests.swift */; };
+		D87562141BD6DD91001785A7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87562121BD6DD91001785A7 /* Interface.storyboard */; };
+		D87562161BD6DD91001785A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87562151BD6DD91001785A7 /* Assets.xcassets */; };
+		D875621D1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D875621C1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D87562241BD6DD91001785A7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87562231BD6DD91001785A7 /* InterfaceController.swift */; };
+		D87562261BD6DD91001785A7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87562251BD6DD91001785A7 /* ExtensionDelegate.swift */; };
+		D87562281BD6DD91001785A7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87562271BD6DD91001785A7 /* NotificationController.swift */; };
+		D875622A1BD6DD91001785A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87562291BD6DD91001785A7 /* Assets.xcassets */; };
+		D875622E1BD6DD91001785A7 /* Dynamic Watch Pages.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D87562101BD6DD91001785A7 /* Dynamic Watch Pages.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D87561F21BD6DD7E001785A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87561D51BD6DD7E001785A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D87561DC1BD6DD7E001785A7;
+			remoteInfo = "Dynamic Pages";
+		};
+		D87561FD1BD6DD7E001785A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87561D51BD6DD7E001785A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D87561DC1BD6DD7E001785A7;
+			remoteInfo = "Dynamic Pages";
+		};
+		D875621E1BD6DD91001785A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87561D51BD6DD7E001785A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D875621B1BD6DD91001785A7;
+			remoteInfo = "Dynamic Watch Pages Extension";
+		};
+		D875622C1BD6DD91001785A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87561D51BD6DD7E001785A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D875620F1BD6DD91001785A7;
+			remoteInfo = "Dynamic Watch Pages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D87562321BD6DD91001785A7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D875621D1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87562361BD6DD91001785A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D875622E1BD6DD91001785A7 /* Dynamic Watch Pages.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D87561DD1BD6DD7E001785A7 /* Dynamic Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Pages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87561E01BD6DD7E001785A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D87561E21BD6DD7E001785A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D87561E51BD6DD7E001785A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D87561E71BD6DD7E001785A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D87561EA1BD6DD7E001785A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D87561EC1BD6DD7E001785A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87561F11BD6DD7E001785A7 /* Dynamic PagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic PagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87561F51BD6DD7E001785A7 /* Dynamic_PagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_PagesTests.swift; sourceTree = "<group>"; };
+		D87561F71BD6DD7E001785A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87561FC1BD6DD7E001785A7 /* Dynamic PagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic PagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87562001BD6DD7E001785A7 /* Dynamic_PagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_PagesUITests.swift; sourceTree = "<group>"; };
+		D87562021BD6DD7E001785A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87562101BD6DD91001785A7 /* Dynamic Watch Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Watch Pages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87562131BD6DD91001785A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D87562151BD6DD91001785A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D87562171BD6DD91001785A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D875621C1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dynamic Watch Pages Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87562221BD6DD91001785A7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D87562231BD6DD91001785A7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D87562251BD6DD91001785A7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D87562271BD6DD91001785A7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D87562291BD6DD91001785A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D875622B1BD6DD91001785A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87561DA1BD6DD7E001785A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561EE1BD6DD7E001785A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561F91BD6DD7E001785A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87562191BD6DD91001785A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87561D41BD6DD7E001785A7 = {
+			isa = PBXGroup;
+			children = (
+				D87561DF1BD6DD7E001785A7 /* Dynamic Pages */,
+				D87561F41BD6DD7E001785A7 /* Dynamic PagesTests */,
+				D87561FF1BD6DD7E001785A7 /* Dynamic PagesUITests */,
+				D87562111BD6DD91001785A7 /* Dynamic Watch Pages */,
+				D87562201BD6DD91001785A7 /* Dynamic Watch Pages Extension */,
+				D87561DE1BD6DD7E001785A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87561DE1BD6DD7E001785A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87561DD1BD6DD7E001785A7 /* Dynamic Pages.app */,
+				D87561F11BD6DD7E001785A7 /* Dynamic PagesTests.xctest */,
+				D87561FC1BD6DD7E001785A7 /* Dynamic PagesUITests.xctest */,
+				D87562101BD6DD91001785A7 /* Dynamic Watch Pages.app */,
+				D875621C1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87561DF1BD6DD7E001785A7 /* Dynamic Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D87561E01BD6DD7E001785A7 /* AppDelegate.swift */,
+				D87561E21BD6DD7E001785A7 /* ViewController.swift */,
+				D87561E41BD6DD7E001785A7 /* Main.storyboard */,
+				D87561E71BD6DD7E001785A7 /* Assets.xcassets */,
+				D87561E91BD6DD7E001785A7 /* LaunchScreen.storyboard */,
+				D87561EC1BD6DD7E001785A7 /* Info.plist */,
+			);
+			path = "Dynamic Pages";
+			sourceTree = "<group>";
+		};
+		D87561F41BD6DD7E001785A7 /* Dynamic PagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87561F51BD6DD7E001785A7 /* Dynamic_PagesTests.swift */,
+				D87561F71BD6DD7E001785A7 /* Info.plist */,
+			);
+			path = "Dynamic PagesTests";
+			sourceTree = "<group>";
+		};
+		D87561FF1BD6DD7E001785A7 /* Dynamic PagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D87562001BD6DD7E001785A7 /* Dynamic_PagesUITests.swift */,
+				D87562021BD6DD7E001785A7 /* Info.plist */,
+			);
+			path = "Dynamic PagesUITests";
+			sourceTree = "<group>";
+		};
+		D87562111BD6DD91001785A7 /* Dynamic Watch Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D87562121BD6DD91001785A7 /* Interface.storyboard */,
+				D87562151BD6DD91001785A7 /* Assets.xcassets */,
+				D87562171BD6DD91001785A7 /* Info.plist */,
+			);
+			path = "Dynamic Watch Pages";
+			sourceTree = "<group>";
+		};
+		D87562201BD6DD91001785A7 /* Dynamic Watch Pages Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D87562231BD6DD91001785A7 /* InterfaceController.swift */,
+				D87562251BD6DD91001785A7 /* ExtensionDelegate.swift */,
+				D87562271BD6DD91001785A7 /* NotificationController.swift */,
+				D87562291BD6DD91001785A7 /* Assets.xcassets */,
+				D875622B1BD6DD91001785A7 /* Info.plist */,
+				D87562211BD6DD91001785A7 /* Supporting Files */,
+			);
+			path = "Dynamic Watch Pages Extension";
+			sourceTree = "<group>";
+		};
+		D87562211BD6DD91001785A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87562221BD6DD91001785A7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87561DC1BD6DD7E001785A7 /* Dynamic Pages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87562051BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Pages" */;
+			buildPhases = (
+				D87561D91BD6DD7E001785A7 /* Sources */,
+				D87561DA1BD6DD7E001785A7 /* Frameworks */,
+				D87561DB1BD6DD7E001785A7 /* Resources */,
+				D87562361BD6DD91001785A7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D875622D1BD6DD91001785A7 /* PBXTargetDependency */,
+			);
+			name = "Dynamic Pages";
+			productName = "Dynamic Pages";
+			productReference = D87561DD1BD6DD7E001785A7 /* Dynamic Pages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D87561F01BD6DD7E001785A7 /* Dynamic PagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87562081BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic PagesTests" */;
+			buildPhases = (
+				D87561ED1BD6DD7E001785A7 /* Sources */,
+				D87561EE1BD6DD7E001785A7 /* Frameworks */,
+				D87561EF1BD6DD7E001785A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87561F31BD6DD7E001785A7 /* PBXTargetDependency */,
+			);
+			name = "Dynamic PagesTests";
+			productName = "Dynamic PagesTests";
+			productReference = D87561F11BD6DD7E001785A7 /* Dynamic PagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D87561FB1BD6DD7E001785A7 /* Dynamic PagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D875620B1BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic PagesUITests" */;
+			buildPhases = (
+				D87561F81BD6DD7E001785A7 /* Sources */,
+				D87561F91BD6DD7E001785A7 /* Frameworks */,
+				D87561FA1BD6DD7E001785A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87561FE1BD6DD7E001785A7 /* PBXTargetDependency */,
+			);
+			name = "Dynamic PagesUITests";
+			productName = "Dynamic PagesUITests";
+			productReference = D87561FC1BD6DD7E001785A7 /* Dynamic PagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D875620F1BD6DD91001785A7 /* Dynamic Watch Pages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87562331BD6DD91001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Watch Pages" */;
+			buildPhases = (
+				D875620E1BD6DD91001785A7 /* Resources */,
+				D87562321BD6DD91001785A7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D875621F1BD6DD91001785A7 /* PBXTargetDependency */,
+			);
+			name = "Dynamic Watch Pages";
+			productName = "Dynamic Watch Pages";
+			productReference = D87562101BD6DD91001785A7 /* Dynamic Watch Pages.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D875621B1BD6DD91001785A7 /* Dynamic Watch Pages Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D875622F1BD6DD91001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Watch Pages Extension" */;
+			buildPhases = (
+				D87562181BD6DD91001785A7 /* Sources */,
+				D87562191BD6DD91001785A7 /* Frameworks */,
+				D875621A1BD6DD91001785A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Watch Pages Extension";
+			productName = "Dynamic Watch Pages Extension";
+			productReference = D875621C1BD6DD91001785A7 /* Dynamic Watch Pages Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87561D51BD6DD7E001785A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Capstone;
+				TargetAttributes = {
+					D87561DC1BD6DD7E001785A7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D87561F01BD6DD7E001785A7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D87561DC1BD6DD7E001785A7;
+					};
+					D87561FB1BD6DD7E001785A7 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D87561DC1BD6DD7E001785A7;
+					};
+					D875620F1BD6DD91001785A7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D875621B1BD6DD91001785A7 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D87561D81BD6DD7E001785A7 /* Build configuration list for PBXProject "Dynamic Pages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D87561D41BD6DD7E001785A7;
+			productRefGroup = D87561DE1BD6DD7E001785A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87561DC1BD6DD7E001785A7 /* Dynamic Pages */,
+				D87561F01BD6DD7E001785A7 /* Dynamic PagesTests */,
+				D87561FB1BD6DD7E001785A7 /* Dynamic PagesUITests */,
+				D875620F1BD6DD91001785A7 /* Dynamic Watch Pages */,
+				D875621B1BD6DD91001785A7 /* Dynamic Watch Pages Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87561DB1BD6DD7E001785A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87561EB1BD6DD7E001785A7 /* LaunchScreen.storyboard in Resources */,
+				D87561E81BD6DD7E001785A7 /* Assets.xcassets in Resources */,
+				D87561E61BD6DD7E001785A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561EF1BD6DD7E001785A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561FA1BD6DD7E001785A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D875620E1BD6DD91001785A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87562161BD6DD91001785A7 /* Assets.xcassets in Resources */,
+				D87562141BD6DD91001785A7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D875621A1BD6DD91001785A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875622A1BD6DD91001785A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87561D91BD6DD7E001785A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87561E31BD6DD7E001785A7 /* ViewController.swift in Sources */,
+				D87561E11BD6DD7E001785A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561ED1BD6DD7E001785A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87561F61BD6DD7E001785A7 /* Dynamic_PagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87561F81BD6DD7E001785A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87562011BD6DD7E001785A7 /* Dynamic_PagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87562181BD6DD91001785A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87562281BD6DD91001785A7 /* NotificationController.swift in Sources */,
+				D87562261BD6DD91001785A7 /* ExtensionDelegate.swift in Sources */,
+				D87562241BD6DD91001785A7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D87561F31BD6DD7E001785A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D87561DC1BD6DD7E001785A7 /* Dynamic Pages */;
+			targetProxy = D87561F21BD6DD7E001785A7 /* PBXContainerItemProxy */;
+		};
+		D87561FE1BD6DD7E001785A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D87561DC1BD6DD7E001785A7 /* Dynamic Pages */;
+			targetProxy = D87561FD1BD6DD7E001785A7 /* PBXContainerItemProxy */;
+		};
+		D875621F1BD6DD91001785A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D875621B1BD6DD91001785A7 /* Dynamic Watch Pages Extension */;
+			targetProxy = D875621E1BD6DD91001785A7 /* PBXContainerItemProxy */;
+		};
+		D875622D1BD6DD91001785A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D875620F1BD6DD91001785A7 /* Dynamic Watch Pages */;
+			targetProxy = D875622C1BD6DD91001785A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D87561E41BD6DD7E001785A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87561E51BD6DD7E001785A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D87561E91BD6DD7E001785A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87561EA1BD6DD7E001785A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D87562121BD6DD91001785A7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87562131BD6DD91001785A7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D87562031BD6DD7E001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D87562041BD6DD7E001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D87562061BD6DD7E001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamic Pages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D87562071BD6DD7E001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dynamic Pages/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D87562091BD6DD7E001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dynamic PagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-PagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Pages.app/Dynamic Pages";
+			};
+			name = Debug;
+		};
+		D875620A1BD6DD7E001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dynamic PagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-PagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Pages.app/Dynamic Pages";
+			};
+			name = Release;
+		};
+		D875620C1BD6DD7E001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamic PagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-PagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dynamic Pages";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D875620D1BD6DD7E001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamic PagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-PagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dynamic Pages";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		D87562301BD6DD91001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamic Watch Pages Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D87562311BD6DD91001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dynamic Watch Pages Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D87562341BD6DD91001785A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Dynamic_Watch_Pages_Extension;
+				INFOPLIST_FILE = "Dynamic Watch Pages/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D87562351BD6DD91001785A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Dynamic_Watch_Pages_Extension;
+				INFOPLIST_FILE = "Dynamic Watch Pages/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "miamicapstone.Dynamic-Pages.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87561D81BD6DD7E001785A7 /* Build configuration list for PBXProject "Dynamic Pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87562031BD6DD7E001785A7 /* Debug */,
+				D87562041BD6DD7E001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87562051BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87562061BD6DD7E001785A7 /* Debug */,
+				D87562071BD6DD7E001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D87562081BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic PagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87562091BD6DD7E001785A7 /* Debug */,
+				D875620A1BD6DD7E001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D875620B1BD6DD7E001785A7 /* Build configuration list for PBXNativeTarget "Dynamic PagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D875620C1BD6DD7E001785A7 /* Debug */,
+				D875620D1BD6DD7E001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D875622F1BD6DD91001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Watch Pages Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87562301BD6DD91001785A7 /* Debug */,
+				D87562311BD6DD91001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D87562331BD6DD91001785A7 /* Build configuration list for PBXNativeTarget "Dynamic Watch Pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87562341BD6DD91001785A7 /* Debug */,
+				D87562351BD6DD91001785A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D87561D51BD6DD7E001785A7 /* Project object */;
+}
